@@ -1,0 +1,276 @@
+23:38:44.965 Running build in Washington, D.C., USA (East) – iad1
+23:38:44.977 Build machine configuration: 2 cores, 8 GB
+23:38:45.441 Cloning github.com/harshitsiwach/launchpad (Branch: main, Commit: 0dd7a2e)
+23:38:45.442 Previous build caches not available.
+23:38:47.137 Cloning completed: 1.696s
+23:38:48.176 Running "vercel build"
+23:38:48.619 Vercel CLI 50.0.1
+23:38:48.976 Installing dependencies...
+23:38:52.610 npm warn ERESOLVE overriding peer dependency
+23:38:52.611 npm warn While resolving: @fractalwagmi/popup-connection@1.1.1
+23:38:52.612 npm warn Found: react@19.2.1
+23:38:52.612 npm warn node_modules/react
+23:38:52.612 npm warn   react@"19.2.1" from the root project
+23:38:52.612 npm warn   30 more (zustand, zustand, @keystonehq/sdk, ...)
+23:38:52.612 npm warn
+23:38:52.613 npm warn Could not resolve dependency:
+23:38:52.613 npm warn peer react@"^17.0.2 || ^18" from @fractalwagmi/popup-connection@1.1.1
+23:38:52.613 npm warn node_modules/@fractalwagmi/popup-connection
+23:38:52.614 npm warn   @fractalwagmi/popup-connection@"^1.0.18" from @fractalwagmi/solana-wallet-adapter@0.1.1
+23:38:52.614 npm warn   node_modules/@fractalwagmi/solana-wallet-adapter
+23:38:52.614 npm warn
+23:38:52.614 npm warn Conflicting peer dependency: react@18.3.1
+23:38:52.614 npm warn node_modules/react
+23:38:52.615 npm warn   peer react@"^17.0.2 || ^18" from @fractalwagmi/popup-connection@1.1.1
+23:38:52.615 npm warn   node_modules/@fractalwagmi/popup-connection
+23:38:52.615 npm warn     @fractalwagmi/popup-connection@"^1.0.18" from @fractalwagmi/solana-wallet-adapter@0.1.1
+23:38:52.615 npm warn     node_modules/@fractalwagmi/solana-wallet-adapter
+23:38:52.624 npm warn ERESOLVE overriding peer dependency
+23:38:52.626 npm warn While resolving: @fractalwagmi/popup-connection@1.1.1
+23:38:52.626 npm warn Found: react-dom@19.2.1
+23:38:52.627 npm warn node_modules/react-dom
+23:38:52.627 npm warn   react-dom@"19.2.1" from the root project
+23:38:52.627 npm warn   7 more (@keystonehq/sdk, @rainbow-me/rainbowkit, ...)
+23:38:52.627 npm warn
+23:38:52.627 npm warn Could not resolve dependency:
+23:38:52.627 npm warn peer react-dom@"^17.0.2 || ^18" from @fractalwagmi/popup-connection@1.1.1
+23:38:52.628 npm warn node_modules/@fractalwagmi/popup-connection
+23:38:52.628 npm warn   @fractalwagmi/popup-connection@"^1.0.18" from @fractalwagmi/solana-wallet-adapter@0.1.1
+23:38:52.628 npm warn   node_modules/@fractalwagmi/solana-wallet-adapter
+23:38:52.628 npm warn
+23:38:52.629 npm warn Conflicting peer dependency: react-dom@18.3.1
+23:38:52.629 npm warn node_modules/react-dom
+23:38:52.630 npm warn   peer react-dom@"^17.0.2 || ^18" from @fractalwagmi/popup-connection@1.1.1
+23:38:52.632 npm warn   node_modules/@fractalwagmi/popup-connection
+23:38:52.632 npm warn     @fractalwagmi/popup-connection@"^1.0.18" from @fractalwagmi/solana-wallet-adapter@0.1.1
+23:38:52.632 npm warn     node_modules/@fractalwagmi/solana-wallet-adapter
+23:38:52.739 npm warn ERESOLVE overriding peer dependency
+23:38:52.740 npm warn While resolving: qrcode.react@1.0.1
+23:38:52.740 npm warn Found: react@19.2.1
+23:38:52.740 npm warn node_modules/react
+23:38:52.740 npm warn   react@"19.2.1" from the root project
+23:38:52.741 npm warn   30 more (zustand, zustand, @keystonehq/sdk, ...)
+23:38:52.741 npm warn
+23:38:52.741 npm warn Could not resolve dependency:
+23:38:52.741 npm warn peer react@"^15.5.3 || ^16.0.0 || ^17.0.0" from qrcode.react@1.0.1
+23:38:52.741 npm warn node_modules/qrcode.react
+23:38:52.742 npm warn   qrcode.react@"^1.0.1" from @keystonehq/sdk@0.19.2
+23:38:52.742 npm warn   node_modules/@keystonehq/sdk
+23:38:52.742 npm warn
+23:38:52.742 npm warn Conflicting peer dependency: react@17.0.2
+23:38:52.742 npm warn node_modules/react
+23:38:52.743 npm warn   peer react@"^15.5.3 || ^16.0.0 || ^17.0.0" from qrcode.react@1.0.1
+23:38:52.743 npm warn   node_modules/qrcode.react
+23:38:52.743 npm warn     qrcode.react@"^1.0.1" from @keystonehq/sdk@0.19.2
+23:38:52.743 npm warn     node_modules/@keystonehq/sdk
+23:38:52.979 npm warn ERESOLVE overriding peer dependency
+23:38:52.980 npm warn While resolving: react-qr-reader@2.2.1
+23:38:52.980 npm warn Found: react@19.2.1
+23:38:52.980 npm warn node_modules/react
+23:38:52.980 npm warn   react@"19.2.1" from the root project
+23:38:52.983 npm warn   30 more (zustand, zustand, @keystonehq/sdk, ...)
+23:38:52.983 npm warn
+23:38:52.983 npm warn Could not resolve dependency:
+23:38:52.983 npm warn peer react@"~16" from react-qr-reader@2.2.1
+23:38:52.987 npm warn node_modules/react-qr-reader
+23:38:52.987 npm warn   react-qr-reader@"^2.2.1" from @keystonehq/sdk@0.19.2
+23:38:52.987 npm warn   node_modules/@keystonehq/sdk
+23:38:52.987 npm warn
+23:38:52.987 npm warn Conflicting peer dependency: react@16.14.0
+23:38:52.987 npm warn node_modules/react
+23:38:52.987 npm warn   peer react@"~16" from react-qr-reader@2.2.1
+23:38:52.988 npm warn   node_modules/react-qr-reader
+23:38:52.988 npm warn     react-qr-reader@"^2.2.1" from @keystonehq/sdk@0.19.2
+23:38:52.988 npm warn     node_modules/@keystonehq/sdk
+23:38:52.997 npm warn ERESOLVE overriding peer dependency
+23:38:52.998 npm warn While resolving: react-qr-reader@2.2.1
+23:38:52.998 npm warn Found: react-dom@19.2.1
+23:38:52.998 npm warn node_modules/react-dom
+23:38:52.998 npm warn   react-dom@"19.2.1" from the root project
+23:38:52.998 npm warn   7 more (@keystonehq/sdk, @rainbow-me/rainbowkit, ...)
+23:38:52.998 npm warn
+23:38:52.998 npm warn Could not resolve dependency:
+23:38:52.998 npm warn peer react-dom@"~16" from react-qr-reader@2.2.1
+23:38:52.998 npm warn node_modules/react-qr-reader
+23:38:52.998 npm warn   react-qr-reader@"^2.2.1" from @keystonehq/sdk@0.19.2
+23:38:52.998 npm warn   node_modules/@keystonehq/sdk
+23:38:52.999 npm warn
+23:38:52.999 npm warn Conflicting peer dependency: react-dom@16.14.0
+23:38:52.999 npm warn node_modules/react-dom
+23:38:52.999 npm warn   peer react-dom@"~16" from react-qr-reader@2.2.1
+23:38:52.999 npm warn   node_modules/react-qr-reader
+23:38:52.999 npm warn     react-qr-reader@"^2.2.1" from @keystonehq/sdk@0.19.2
+23:38:52.999 npm warn     node_modules/@keystonehq/sdk
+23:38:53.192 npm warn ERESOLVE overriding peer dependency
+23:38:53.193 npm warn While resolving: use-sync-external-store@1.2.0
+23:38:53.193 npm warn Found: react@19.2.1
+23:38:53.194 npm warn node_modules/react
+23:38:53.194 npm warn   react@"19.2.1" from the root project
+23:38:53.198 npm warn   30 more (zustand, zustand, @keystonehq/sdk, ...)
+23:38:53.199 npm warn
+23:38:53.199 npm warn Could not resolve dependency:
+23:38:53.199 npm warn peer react@"^16.8.0 || ^17.0.0 || ^18.0.0" from use-sync-external-store@1.2.0
+23:38:53.200 npm warn node_modules/valtio/node_modules/use-sync-external-store
+23:38:53.200 npm warn   use-sync-external-store@"1.2.0" from valtio@1.13.2
+23:38:53.200 npm warn   node_modules/valtio
+23:38:53.200 npm warn
+23:38:53.201 npm warn Conflicting peer dependency: react@18.3.1
+23:38:53.201 npm warn node_modules/react
+23:38:53.201 npm warn   peer react@"^16.8.0 || ^17.0.0 || ^18.0.0" from use-sync-external-store@1.2.0
+23:38:53.201 npm warn   node_modules/valtio/node_modules/use-sync-external-store
+23:38:53.201 npm warn     use-sync-external-store@"1.2.0" from valtio@1.13.2
+23:38:53.201 npm warn     node_modules/valtio
+23:38:55.842 npm warn deprecated uuidv4@6.2.13: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+23:38:56.397 npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+23:38:57.323 npm warn deprecated lodash.isequal@4.5.0: This package is deprecated. Use require('node:util').isDeepStrictEqual instead.
+23:38:57.759 npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+23:38:57.945 npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+23:39:02.349 npm warn deprecated @paulmillr/qr@0.2.1: The package is now available as "qr": npm install qr
+23:39:05.542 npm warn deprecated @toruslabs/solana-embed@2.1.0: This sdk is now deprecated. Please use @web3auth/ws-embed instead
+23:39:12.464 npm warn deprecated @walletconnect/sign-client@2.19.0: Reliability and performance improvements. See: https://github.com/WalletConnect/walletconnect-monorepo/releases
+23:39:12.981 npm warn deprecated @walletconnect/ethereum-provider@2.21.1: Reliability and performance improvements. See: https://github.com/WalletConnect/walletconnect-monorepo/releases
+23:39:13.141 npm warn deprecated @walletconnect/universal-provider@2.19.0: Reliability and performance improvements. See: https://github.com/WalletConnect/walletconnect-monorepo/releases
+23:39:13.431 npm warn deprecated @walletconnect/sign-client@2.21.1: Reliability and performance improvements. See: https://github.com/WalletConnect/walletconnect-monorepo/releases
+23:39:13.497 npm warn deprecated @walletconnect/sign-client@2.21.0: Reliability and performance improvements. See: https://github.com/WalletConnect/walletconnect-monorepo/releases
+23:39:13.504 npm warn deprecated @walletconnect/sign-client@2.21.0: Reliability and performance improvements. See: https://github.com/WalletConnect/walletconnect-monorepo/releases
+23:39:13.539 npm warn deprecated @walletconnect/sign-client@2.21.0: Reliability and performance improvements. See: https://github.com/WalletConnect/walletconnect-monorepo/releases
+23:39:14.109 npm warn deprecated @walletconnect/universal-provider@2.21.0: Reliability and performance improvements. See: https://github.com/WalletConnect/walletconnect-monorepo/releases
+23:39:14.110 npm warn deprecated @walletconnect/universal-provider@2.21.0: Reliability and performance improvements. See: https://github.com/WalletConnect/walletconnect-monorepo/releases
+23:39:14.111 npm warn deprecated @walletconnect/universal-provider@2.21.0: Reliability and performance improvements. See: https://github.com/WalletConnect/walletconnect-monorepo/releases
+23:39:14.123 npm warn deprecated @walletconnect/universal-provider@2.21.1: Reliability and performance improvements. See: https://github.com/WalletConnect/walletconnect-monorepo/releases
+23:39:14.303 npm warn deprecated @walletconnect/sign-client@2.21.0: Reliability and performance improvements. See: https://github.com/WalletConnect/walletconnect-monorepo/releases
+23:39:14.361 npm warn deprecated @walletconnect/sign-client@2.19.1: Reliability and performance improvements. See: https://github.com/WalletConnect/walletconnect-monorepo/releases
+23:39:14.403 npm warn deprecated @walletconnect/sign-client@2.19.1: Reliability and performance improvements. See: https://github.com/WalletConnect/walletconnect-monorepo/releases
+23:39:14.411 npm warn deprecated @walletconnect/sign-client@2.19.1: Reliability and performance improvements. See: https://github.com/WalletConnect/walletconnect-monorepo/releases
+23:39:14.524 npm warn deprecated @walletconnect/universal-provider@2.21.0: Reliability and performance improvements. See: https://github.com/WalletConnect/walletconnect-monorepo/releases
+23:39:14.767 npm warn deprecated @walletconnect/universal-provider@2.19.1: Reliability and performance improvements. See: https://github.com/WalletConnect/walletconnect-monorepo/releases
+23:39:14.794 npm warn deprecated @walletconnect/universal-provider@2.19.1: Reliability and performance improvements. See: https://github.com/WalletConnect/walletconnect-monorepo/releases
+23:39:14.821 npm warn deprecated @walletconnect/universal-provider@2.19.1: Reliability and performance improvements. See: https://github.com/WalletConnect/walletconnect-monorepo/releases
+23:39:57.603 
+23:39:57.604 added 1681 packages in 1m
+23:39:57.604 
+23:39:57.604 240 packages are looking for funding
+23:39:57.604   run `npm fund` for details
+23:39:57.679 Detected Next.js version: 16.0.10
+23:39:57.692 Running "npm run build"
+23:39:57.785 
+23:39:57.786 > launchpad@0.1.0 build
+23:39:57.786 > next build --webpack
+23:39:57.786 
+23:39:58.815 Attention: Next.js now collects completely anonymous telemetry regarding usage.
+23:39:58.816 This information is used to shape Next.js' roadmap and prioritize features.
+23:39:58.817 You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+23:39:58.817 https://nextjs.org/telemetry
+23:39:58.818 
+23:39:58.830    ▲ Next.js 16.0.10 (webpack)
+23:39:58.830 
+23:39:58.864    Creating an optimized production build ...
+23:41:01.065  ✓ Compiled successfully in 62s
+23:41:01.103    Skipping validation of types
+23:41:01.193    Collecting page data using 1 worker ...
+23:41:01.597 Prisma has detected that this project was built on Vercel, which caches dependencies. This leads to an outdated Prisma Client because Prisma's auto-generation isn't triggered. To fix this, make sure to run the `prisma generate` command during the build process.
+23:41:01.597 
+23:41:01.598 Learn how: https://pris.ly/d/vercel-build
+23:41:01.601 Error [PrismaClientInitializationError]: Prisma has detected that this project was built on Vercel, which caches dependencies. This leads to an outdated Prisma Client because Prisma's auto-generation isn't triggered. To fix this, make sure to run the `prisma generate` command during the build process.
+23:41:01.602 
+23:41:01.602 Learn how: https://pris.ly/d/vercel-build
+23:41:01.602     at 30087 (.next/server/app/api/admin/projects/route.js:1:546)
+23:41:01.602     at g (.next/server/webpack-runtime.js:1:151)
+23:41:01.602     at 99645 (.next/server/app/api/admin/projects/route.js:1:1323)
+23:41:01.602     at g (.next/server/webpack-runtime.js:1:151)
+23:41:01.602     at <unknown> (.next/server/app/api/admin/projects/route.js:1:7791)
+23:41:01.603     at g.X (.next/server/webpack-runtime.js:1:1277)
+23:41:01.603     at <unknown> (.next/server/app/api/admin/projects/route.js:1:7772)
+23:41:01.603     at Object.<anonymous> (.next/server/app/api/admin/projects/route.js:1:7823) {
+23:41:01.603   clientVersion: '5.22.0',
+23:41:01.603   errorCode: undefined
+23:41:01.603 }
+23:41:01.615 Prisma has detected that this project was built on Vercel, which caches dependencies. This leads to an outdated Prisma Client because Prisma's auto-generation isn't triggered. To fix this, make sure to run the `prisma generate` command during the build process.
+23:41:01.615 
+23:41:01.616 Learn how: https://pris.ly/d/vercel-build
+23:41:01.617 Error [PrismaClientInitializationError]: Prisma has detected that this project was built on Vercel, which caches dependencies. This leads to an outdated Prisma Client because Prisma's auto-generation isn't triggered. To fix this, make sure to run the `prisma generate` command during the build process.
+23:41:01.617 
+23:41:01.617 Learn how: https://pris.ly/d/vercel-build
+23:41:01.617     at 30087 (.next/server/app/api/admin/whitelist/route.js:1:546)
+23:41:01.617     at g (.next/server/webpack-runtime.js:1:151)
+23:41:01.617     at 69642 (.next/server/app/api/admin/whitelist/route.js:1:1204)
+23:41:01.617     at g (.next/server/webpack-runtime.js:1:151)
+23:41:01.617     at <unknown> (.next/server/app/api/admin/whitelist/route.js:1:7627)
+23:41:01.617     at g.X (.next/server/webpack-runtime.js:1:1277)
+23:41:01.617     at <unknown> (.next/server/app/api/admin/whitelist/route.js:1:7608)
+23:41:01.617     at Object.<anonymous> (.next/server/app/api/admin/whitelist/route.js:1:7659) {
+23:41:01.617   clientVersion: '5.22.0',
+23:41:01.617   errorCode: undefined
+23:41:01.618 }
+23:41:01.621 Prisma has detected that this project was built on Vercel, which caches dependencies. This leads to an outdated Prisma Client because Prisma's auto-generation isn't triggered. To fix this, make sure to run the `prisma generate` command during the build process.
+23:41:01.621 
+23:41:01.621 Learn how: https://pris.ly/d/vercel-build
+23:41:01.622 Error [PrismaClientInitializationError]: Prisma has detected that this project was built on Vercel, which caches dependencies. This leads to an outdated Prisma Client because Prisma's auto-generation isn't triggered. To fix this, make sure to run the `prisma generate` command during the build process.
+23:41:01.622 
+23:41:01.622 Learn how: https://pris.ly/d/vercel-build
+23:41:01.623     at 30087 (.next/server/app/api/user/cap/route.js:1:7113)
+23:41:01.623     at g (.next/server/webpack-runtime.js:1:151)
+23:41:01.623     at 2229 (.next/server/app/api/user/cap/route.js:1:543)
+23:41:01.623     at g (.next/server/webpack-runtime.js:1:151)
+23:41:01.623     at <unknown> (.next/server/app/api/user/cap/route.js:1:7563)
+23:41:01.623     at g.X (.next/server/webpack-runtime.js:1:1277)
+23:41:01.623     at <unknown> (.next/server/app/api/user/cap/route.js:1:7544)
+23:41:01.623     at Object.<anonymous> (.next/server/app/api/user/cap/route.js:1:7594) {
+23:41:01.623   clientVersion: '5.22.0',
+23:41:01.623   errorCode: undefined
+23:41:01.623 }
+23:41:01.636 Prisma has detected that this project was built on Vercel, which caches dependencies. This leads to an outdated Prisma Client because Prisma's auto-generation isn't triggered. To fix this, make sure to run the `prisma generate` command during the build process.
+23:41:01.636 
+23:41:01.637 Learn how: https://pris.ly/d/vercel-build
+23:41:01.637 Error: Failed to collect configuration for /
+23:41:01.637     at ignore-listed frames {
+23:41:01.637   [cause]: Error [PrismaClientInitializationError]: Prisma has detected that this project was built on Vercel, which caches dependencies. This leads to an outdated Prisma Client because Prisma's auto-generation isn't triggered. To fix this, make sure to run the `prisma generate` command during the build process.
+23:41:01.638   
+23:41:01.638   Learn how: https://pris.ly/d/vercel-build
+23:41:01.638       at 30087 (.next/server/app/page.js:2:9229)
+23:41:01.638       at g (.next/server/webpack-runtime.js:1:151)
+23:41:01.638       at 14284 (.next/server/app/page.js:1:661)
+23:41:01.638       at g (.next/server/webpack-runtime.js:1:151) {
+23:41:01.638     clientVersion: '5.22.0',
+23:41:01.639     errorCode: undefined
+23:41:01.643   }
+23:41:01.643 }
+23:41:01.651 Prisma has detected that this project was built on Vercel, which caches dependencies. This leads to an outdated Prisma Client because Prisma's auto-generation isn't triggered. To fix this, make sure to run the `prisma generate` command during the build process.
+23:41:01.651 
+23:41:01.651 Learn how: https://pris.ly/d/vercel-build
+23:41:01.652 Error: Failed to collect configuration for /projects/[id]
+23:41:01.652     at ignore-listed frames {
+23:41:01.653   [cause]: Error [PrismaClientInitializationError]: Prisma has detected that this project was built on Vercel, which caches dependencies. This leads to an outdated Prisma Client because Prisma's auto-generation isn't triggered. To fix this, make sure to run the `prisma generate` command during the build process.
+23:41:01.653   
+23:41:01.653   Learn how: https://pris.ly/d/vercel-build
+23:41:01.653       at 30087 (.next/server/app/projects/[id]/page.js:2:9123)
+23:41:01.653       at g (.next/server/webpack-runtime.js:1:151)
+23:41:01.653       at 37310 (.next/server/app/projects/[id]/page.js:2:9436)
+23:41:01.654       at g (.next/server/webpack-runtime.js:1:151) {
+23:41:01.654     clientVersion: '5.22.0',
+23:41:01.654     errorCode: undefined
+23:41:01.654   }
+23:41:01.654 }
+23:41:01.659 Prisma has detected that this project was built on Vercel, which caches dependencies. This leads to an outdated Prisma Client because Prisma's auto-generation isn't triggered. To fix this, make sure to run the `prisma generate` command during the build process.
+23:41:01.660 
+23:41:01.660 Learn how: https://pris.ly/d/vercel-build
+23:41:01.662 Error: Failed to collect configuration for /admin/dashboard
+23:41:01.662     at ignore-listed frames {
+23:41:01.663   [cause]: Error [PrismaClientInitializationError]: Prisma has detected that this project was built on Vercel, which caches dependencies. This leads to an outdated Prisma Client because Prisma's auto-generation isn't triggered. To fix this, make sure to run the `prisma generate` command during the build process.
+23:41:01.663   
+23:41:01.663   Learn how: https://pris.ly/d/vercel-build
+23:41:01.663       at 30087 (.next/server/app/admin/dashboard/page.js:2:9229)
+23:41:01.663       at g (.next/server/webpack-runtime.js:1:151)
+23:41:01.663       at 72139 (.next/server/app/admin/dashboard/page.js:2:11477)
+23:41:01.664       at g (.next/server/webpack-runtime.js:1:151) {
+23:41:01.664     clientVersion: '5.22.0',
+23:41:01.664     errorCode: undefined
+23:41:01.664   }
+23:41:01.664 }
+23:41:02.107 
+23:41:02.108 > Build error occurred
+23:41:02.111 Error: Failed to collect page data for /api/admin/projects
+23:41:02.111     at ignore-listed frames {
+23:41:02.112   type: 'Error'
+23:41:02.112 }
+23:41:02.247 Error: Command "npm run build" exited with 1
