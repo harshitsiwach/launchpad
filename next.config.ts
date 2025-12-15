@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // We use webpack explicitly to handle externals for Web3 deps
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   webpack: (config, { isServer }) => {
     config.externals.push("pino-pretty", "lokijs", "encoding", "tap", "tape", "why-is-node-running");
 

@@ -23,6 +23,7 @@ export async function POST(req: Request) {
                 website,
                 twitter,
                 pools: {
+                    // eslint-disable-next-line @typescript-eslint/no-explicit-any
                     create: pools.map((pool: any) => ({
                         network: pool.network,
                         chainId: pool.chainId,

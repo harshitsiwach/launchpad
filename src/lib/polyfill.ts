@@ -2,7 +2,8 @@
 
 if (typeof window === "undefined") {
     // Polyfill indexedDB for SSR
-    if (!global.indexedDB) {
+    if (!(global as any).indexedDB) {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         (global as any).indexedDB = {
             open: () => ({
                 result: {
@@ -19,7 +20,8 @@ if (typeof window === "undefined") {
     }
 
     // Polyfill localStorage for SSR
-    if (!global.localStorage) {
+    if (!(global as any).localStorage) {
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         (global as any).localStorage = {
             getItem: () => null,
             setItem: () => { },

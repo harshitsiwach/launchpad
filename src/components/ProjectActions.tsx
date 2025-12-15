@@ -89,7 +89,7 @@ export default function ProjectActions({ pools }: { pools: Pool[]; }) {
                 if (!solAddress) return;
                 const ix = createContributeInstruction(solAddress, new PublicKey(activePool.id), parseFloat(amount));
                 const tx = await sendTransaction(
-                    // @ts-ignore - Transaction constructor/version issues in adapter types sometimes
+                    // @ts-expect-error - Solana Wallet types are complex
                     { instructions: [ix], feePayer: solAddress, recentBlockhash: (await connection.getLatestBlockhash()).blockhash },
                     connection
                 );
@@ -116,8 +116,8 @@ export default function ProjectActions({ pools }: { pools: Pool[]; }) {
                             key={pool.id}
                             onClick={() => setSelectedPoolId(pool.id)}
                             className={`flex-1 py-2 text-sm font-medium rounded-md transition-all ${selectedPoolId === pool.id
-                                    ? 'bg-white/10 text-white shadow-sm'
-                                    : 'text-white/50 hover:text-white/80'
+                                ? 'bg-white/10 text-white shadow-sm'
+                                : 'text-white/50 hover:text-white/80'
                                 }`}
                         >
                             {pool.network} Pool
@@ -173,7 +173,7 @@ export default function ProjectActions({ pools }: { pools: Pool[]; }) {
             {/* Action Button */}
             <button
                 onClick={handleContribute}
-                disabled={!walletAddress || !amount || txStatus === 'pending' || (capInfo && parseFloat(amount) > capInfo.allowance)}
+                disabled={!walletAddress || !amount || txStatus === 'pending' || (capInfo ? parseFloat(amount) > capInfo.allowance : false)}
                 className="w-full bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 disabled:opacity-50 disabled:cursor-not-allowed text-white font-bold py-4 rounded-xl shadow-lg transition-all"
             >
                 {txStatus === 'pending' ? (
