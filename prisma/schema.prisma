@@ -1,0 +1,77 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Project {
+  id          String   @id @default(cuid())
+  name        String
+  description String
+  logoUrl     String?
+  bannerUrl   String?
+  website     String?
+  twitter     String?
+  telegram    String?
+  pools       Pool[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Pool {
+  id             String   @id @default(cuid())
+  projectId      String
+  project        Project  @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  
+  network        String   // "EVM" or "SOLANA"
+  chainId        Int?     // For EVM
+  
+  tokenName      String
+  tokenSymbol    String
+  tokenAddress   String?
+  tokenDecimals  Int      @default(18)
+  
+  saleTokenPrice Float    // Price in USD or Native
+  raiseAmount    Float    // Target raise
+  
+  startTime      DateTime
+  endTime        DateTime
+  
+  vestingType    String   // "LINEAR", "CLIFF", etc.
+  tgePercentage  Float    // e.g. 10.0 for 10%
+  cliffMonths    Int      @default(0)
+  vestingMonths  Int      @default(0)
+  
+  whitelists     Whitelist[]
+  contributions  Contribution[]
+  
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}
+
+model Whitelist {
+  id            String   @id @default(cuid())
+  poolId        String
+  pool          Pool     @relation(fields: [poolId], references: [id], onDelete: Cascade)
+  walletAddress String
+  maxAllocation Float    // in USD or Token terms
+  
+  createdAt     DateTime @default(now())
+
+  @@unique([poolId, walletAddress])
+}
+
+model Contribution {
+  id            String   @id @default(cuid())
+  poolId        String
+  pool          Pool     @relation(fields: [poolId], references: [id], onDelete: Cascade)
+  
+  walletAddress String
+  amount        Float
+  transactionHash String
+  
+  createdAt     DateTime @default(now())
+}
